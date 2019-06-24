@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<div class="container">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">ZAVA</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        
+  <div class="navbar-nav ml-auto" id="collapsibleNavbar">
+    <div><a href="#" class="nav-link">Home </a></div>
+    <div><a href="#" class=" nav-link">About</a></div>
+  <div><a href="#" class=" nav-link">Login </a></div>
+    </div>
+
+
+
+</nav>
+
+<div class="jumbotron">
+  <form>
+  <div class="form-group">
+    
+    <input type="text" class="form-control" id="name" placeholder="Fname">
+  </div>
+  <div class="form-group">
+    
+    <input type="text" class="form-control" id="Lname" placeholder="Lname">
+  </div>
+  <div class="form-group">
+  
+    <input type="email" class="form-control" id="Email" placeholder="Email">
+  </div>
+  <div class="form-group">
+   
+    <input type="password" class="form-control" id="Password" placeholder="Password">
+  </div>
+  <div class="radio"><b>Gender</b><br>
+  <label>
+    <input type="radio" name="Male" id="Male" value="Male" checked>
+    Male
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="female" id="female" value="female">
+Female
+  </label>
+</div>
+<div class="radio disabled">
+  <label>
+    <input type="radio" name="others" id="others" value="others" disabled>
+ others
+  </label>
+</div>
+   <div class="checkbox"><B>courses</B><br>
+    <label>
+      <input type="checkbox" value=""> C<br>
+      <input type="checkbox" value="">C++<br>
+      <input type="checkbox" value="" disabled>Others<br>
+    </label>
+    <br>
+    <label><b>How many sibilings u have?</b></label>
+    <select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+<br>
+<label><b>How many languages u known?</b></label>
+<select multiple class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+<br><br>
+
+
+
+
+
+     
+  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+</div>
+</div>
+  
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
